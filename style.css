@@ -3,5 +3,34 @@ html {
 }
 
 body {
-    margin: 0;
+    background-color: antiquewhite;
+}
+
+/* .container-fluid {
+    border: 3px solid red;
+
+} */
+
+.row {
+    border: 1px solid white;
+    background-color: aqua;
+}
+
+#header {
+    height: 10vh;
+}
+
+#folders {
+    height: 90vh;
+    background-color: tan;
+}
+
+#active-folder {
+    height: 25vh;
+    background-color: lightgreen;
+}
+
+#reading-pane {
+    height: 65vh;
+    background-color: pink;
 }

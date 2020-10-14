@@ -2,11 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
     <title>Cohort 209 - Bootstrap Email Template - MDietz</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
-    <h1>Hello there!</h1>
+
+    <div class="container-fluid">
+        <div class="row" id="header">
+            <h1>
+                This is the header row! Title here!
+            </h1>
+        </div>
+        <div class="row">
+            <div class="col-4" id="folders">
+                <h2>
+                    Folder list
+                </h2>
+                <ul>
+                    <li>Inbox</li>
+                    <li>Sent</li>
+                    <li>Trash</li>
+                    <li>Spam</li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="row" id="active-folder">
+                    <h3>
+                        Active Folder
+                    </h3>
+                </div>
+                <div class="row" id="reading-pane">
+                    <h3>
+                        Reading Pane
+                    </h3>
+                </div>
+            </div>
+    
+        </div>   
+    </div>
+
 </body>
 </html>
