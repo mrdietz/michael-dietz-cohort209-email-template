@@ -11,32 +11,43 @@ body {
 
 } */
 
-.row {
-    background-color: aqua;
-}
 
 #header {
     height: 10vh;
+    padding: 5px;
 }
 
 #folders {
     height: 90vh;
-    background-color: tan;
+    padding: 5px;
+    border-right: 4px solid gray;
+    border-top:  4px solid gray;
+}
+
+#folder-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 85%;
+
 }
 
 #active-folder {
     height: 25vh;
-    background-color: lightgreen;
+    padding: 5px;
+    border-top: 4px solid gray;
 }
 
 #reading-pane {
     height: 65vh;
-    background-color: pink;
+    background-color: antiquewhite;
     display: flex;
     justify-content: center;
+    padding: 5px;
+    width: 80%;
+    padding-top: 40px;
 }
 
-#email {
-    width: 80%;
-    padding: 40px;
+#email-contents {
+    background-color: rgb(191, 202, 218);
 }
